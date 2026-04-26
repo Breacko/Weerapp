@@ -44,7 +44,7 @@ def download_file_from_temporary_download_url(download_url, filename):
 
 
 def main():
-    api_key = "<20207fb56a6b48d1482a69c43ccf0cf0>"
+    api_key = "eyJvcmciOiI1ZTU1NGUxOTI3NGE5NjAwMDEyYTNlYjEiLCJpZCI6IjNhZGYwMGM0MjFlYTQyNjQ5NDJmZGFhZWZmYWU5OTMxIiwiaCI6Im11cm11cjEyOCJ9"
     dataset_name = "10-minute-in-situ-meteorological-observations"
     dataset_version = "1.0"
     logger.info(f"Fetching latest file of {dataset_name} version {dataset_version}")
